@@ -7,7 +7,7 @@ import Button from '../components/Button'
 
 const Contact = () => {
   return (
-    <section className="py-20">
+    <section className="pt-2 pb-14">
         <Container>
         <Heading className='flex justify-center pb-5 text-[#1e1e1e] font-bold' text='Get in Touch'/>
         <Flex className='gap-8 justify-center items-center'>

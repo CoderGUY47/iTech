@@ -5,10 +5,10 @@ import Images from '../components/Images'
 import Button from '../components/Button'
 const Banner = () => {
   return (
-    <section className='h-[700px] w-full'>
-        <Images className="h-[700px] w-full object-cover" src={BannerImage}/>
+    <section className='h-[900px] w-full pb-10'>
+        <Images className="h-[900px] w-full object-cover" src={BannerImage}/>
         <Container>
-            <div className='bg-red-500 -z-1 -mt-[470px]'>
+            <div className=' -z-1 -mt-[600px]'>
                 <h2 className='text-white font-poppins font-black text-[60px] mb-0'>Welcome to iTech</h2>
                 <p className='w-[700px] text-white font-poppins font-normal text-[20px] leading-[35px]'>
                     Your one-stop shop for the latest electronics accessories.
